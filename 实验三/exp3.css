@@ -1,0 +1,113 @@
+body {
+	font-size: 12px;
+	margin: 0px;
+}
+li, ol, ul {
+	list-style-type: none;
+}
+a, a:active, a:focus, a:hover, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+.main {
+	width:100%;
+}
+.main .header {
+	width: 100%;
+	height: 250px;
+	background-color: #E8D098;
+}
+.main .header .logo {
+	height: 136px;
+	/*border:1px solid black;*/
+	margin: 0 auto; /*元素处于其父元素的居中位置，并且这个元素的上下外边距为0*/
+	overflow: hidden;
+	border-bottom: 1px solid ghostwhite;
+}
+.main .header .logo img {
+	display: block;
+	width: 479px;
+	margin: 10px auto;
+}
+.main .header .menu {
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .header .menu .link {
+	width: 837px;
+	margin: 20px auto;
+}
+.main .header .menu .link li {
+	float:left;
+	color:dodgerblue;
+	font-size: 18px;
+	padding: 0 8px;
+	width: 100px;
+	text-align: center;
+	margin-bottom: 20px;
+	border-right: 1px solid #e5c387;
+}
+.main .header .menu .link li:last-child {
+	border-right: none;
+}
+.main .section1 {
+	margin: 32px auto;
+	width: 1100px;
+}
+.main .section1 .left {
+	width: 659px;
+	height: 458px;
+	position: relative;
+	float: left;
+}
+.main .section1 .left .img-list {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.main .section1 .right {
+    width: 308px;
+	height: 416px;
+	/*margin-left: 690px;*/
+	float: left;
+	margin-left: 50px;
+	/*border: 2px solid black;*/
+}
+.main .section1 .right li {
+	font-size: 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.main .section1 .right .part-1 {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px dashed #333;
+}
+.main .section1 .right .part-1 li:first-child {
+  font-size: 16px;
+  font-weight: 900;
+}
+.main .section1 .right .part-2 .title {
+  font-size: 20px;
+  font-weight: 900;
+  color: #d90000;
+  margin: 18px 0;
+}
+.main .copyright {
+	margin-top: 54px;
+	margin-bottom: 54px;
+}
+#copyright {
+	
+	width: 980px;
+	margin: 0px auto;
+	font-size: 12px;
+	text-align: center;
+	padding: 20px 0;
+	line-height: 180%;
+	clear: both;
+	color: #9d835d;
+	font-weight: 900;
+	letter-spacing: 2px;
+}

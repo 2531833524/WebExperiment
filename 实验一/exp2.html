@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@keyframes run{
+	0%   {left:0px;}
+	100% {left:-23400px;}
+}
+.wra{
+	position:relative;
+	width:1170px;
+	height:702px;
+	overflow:hidden;
+	/*父容器，溢出隐藏*/
+}
+.box{
+	position:absolute;
+	left:0;top:0;
+	width:23400px;height:702px;
+	background-image:url(cxk.jpg);
+	animation:run 4s steps(20,end) infinite;
+}
+</style>
+</head>
+<body>
+<div class="wra">
+	<div class="box"></div>
+</div>
+</body>
+</html>

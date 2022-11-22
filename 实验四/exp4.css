@@ -1,0 +1,25 @@
+.body{
+	margin: 0;
+	padding: 0;
+}
+.all{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.div1{
+	height: 100px;
+	width:400px;
+	position: relative;
+	margin:0 auto;
+	right: 0;
+	left: 0;
+}
+.div2{
+	height: 472px;
+	width: 720px;
+	position: relative;
+	margin:0 auto;
+	right: 0;
+	left: 0;
+}
